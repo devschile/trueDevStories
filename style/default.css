@@ -1,0 +1,96 @@
+body,
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background: #100a1c;
+  background-image: radial-gradient(50% 30% ellipse at center top, #201e40 0%, rgba(0, 0, 0, 0) 100%), radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
+  background-attachment: fixed;
+  color: #eee;
+  font-size: 18px;
+}
+
+body {
+  font-family: Inconsolata, monospace;
+}
+
+code,
+h1,
+h2,
+h3,
+pre {
+  color: #fff;
+}
+
+a {
+  color: #5ce6cd;
+}
+
+.text-center {
+  text-align: center;
+}
+
+main {
+  padding: 5em 1.5em;
+  padding: 2em;
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 1em;
+}
+
+hr {
+  opacity: .4;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-bottom: 1em;
+}
+
+.btn {
+  display: inline-block;
+  padding: .6em 1em;
+  color: #fff;
+  background-color: #5ce6cd;
+  border: 0;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 1.2em;
+  text-shadow: 0 0 1px rgba(0, 0, .5);
+  letter-spacing: 1.2;
+}
+
+.img-responsive {
+  width: 100%;
+  max-width: 100%;
+}
+
+.container {
+  padding: 2em;
+}
+
+.legend {
+  font-size: 14px;
+}
